@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <style>
+        body {
+            /* Adding a gradient background */
+            background: linear-gradient(135deg, #1e3c72, #2a5298, #ff004d);
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            min-height: 100vh;
+        }
+        .profile {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        .profile h2 {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .product-list {
+            width: 90%;
+            max-width: 600px;
+            margin-top: 20px;
+        }
+        .product-item {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .product-item:hover {
+            background-color: #444;
+        }
+        .product-item img {
+            width: 40px;
+            height: 40px;
+            margin-right: 15px;
+            border-radius: 4px;
+        }
+        .product-name {
+            font-size: 1em;
+            flex-grow: 1;
+        }
+        .product-link {
+            color: #999;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile">
+        <img src="img/01.jpg" alt="Profile Picture">
+        <h2>perfect_product_finds</h2>
+    </div>
+
+    <div class="product-list">
+        <div class="product-item" onclick="window.location.href='https://amzn.to/4hLWcPc'">
+            <img src="product img/01.webp" alt="Product Image">
+            <div class="product-name">Liquid Soap Dispenser for Kitchen Sink Dishwash</div>
+        </div>
+        
+        
+        
+    </div>
+
+</body>
+</html>
